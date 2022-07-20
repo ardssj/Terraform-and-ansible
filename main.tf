@@ -19,6 +19,6 @@ resource "aws_instance" "app_server" {
   key_name = "iac-terraform"
 
   tags = {
-    Name = "V1 - TerraForm Ansible Python"
+    Name = "TerraForm with Ansible - V1"
   }
 }

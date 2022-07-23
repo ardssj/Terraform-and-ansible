@@ -5,6 +5,9 @@
 # .tfstate files
 *.tfstate
 *.tfstate.*
-
+*.iac
+*.iac.*
+*iac
+*iac*
 *.pem
 

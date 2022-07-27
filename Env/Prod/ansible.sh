@@ -36,4 +36,4 @@ tee -a playbook.yml > /dev/null <<EOT
   - name: Starting Server
     shell: '. /home/ubuntu/tcc/venv/bin/activate; nohup python /home/ubuntu/tcc/manage.py runserver 0.0.0.0:8000 &'
 EOT
-ansible-play playbook.yml 
+ansible-playbook playbook.yml
